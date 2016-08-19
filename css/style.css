@@ -1,6 +1,126 @@
 body {
   font-size: 14px;
 }
-.page-header {
-  display: block;
+.page-header__inner {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  text-decoration: none;
+}
+.page-header__contacts {
+  display: flex;
+  flex-wrap: wrap;
+}
+.page-header__phone {
+  text-decoration: none;
+}
+.actions__inner,
+.actions__card,
+.actions__tab {
+  display: flex;
+  flex-wrap: wrap;
+}
+.catalogue__card {
+  display: flex;
+  flex-wrap: wrap;
+}
+.location__inner,
+.location__bus,
+.location__train {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-catalogue__inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-nav__list,
+.main-nav__item,
+.main-nav__link {
+  display: flex;
+  flex-wrap: nowrap;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 15px;
+}
+.page-footer__inner,
+.page-footer__img {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.promo {
+  display: flex;
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+}
+.promo__vacation-slider,
+.promo__vacation-type {
+  display: flex;
+  flex-wrap: wrap;
+}
+.promo,
+.promo__tabs,
+.promo__tab {
+  list-style-type: none;
+}
+.reviews__inner {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.reviews__item {
+  display: flex;
+  flex-wrap: wrap;
+}
+.reviews__img {
+  border-radius: 50%;
+  width: 5%;
+}
+.vacation-slider__slide,
+.vacation-slider__inner {
+  display: flex;
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.vacation-slider__title {
+  margin-left: 10%;
+  background-color: #fff;
+  width: 40%;
+  font-size: 25px;
+  margin-top: 10%;
+}
+.vacation-slider__description {
+  margin-left: 10%;
+  background-color: #fff;
+  width: 50%;
+  font-size: 12px;
+  margin-bottom: 10%;
+}
+.vacation-type__inner {
+  display: flex;
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+  background-size: 80% 80%;
+  justify-content: center;
+  align-items: flex-start;
+}
+.vacation-type__title {
+  width: 100%;
+  justify-content: center;
+}
+.vacation-type__description {
+  width: 60%;
+}
+.vacation-type__list {
+  flex-wrap: wrap;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: center;
+  align-items: flex-start;
+}
+.vacation-type__img {
+  border-radius: 50%;
+  width: 5%;
 }
